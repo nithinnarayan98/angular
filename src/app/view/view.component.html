@@ -1,0 +1,15 @@
+<p>view works!</p>
+<h1>name of employee is:{{Name}}</h1>
+<h1>age of employee is:{{age}}</h1>
+<h1>mail id of employee is:{{email}}</h1>
+<h1>address:
+    {{address.houseno}},{{address.street}},{{address.dist}}
+</h1>
+<h2>
+    Hobbies:
+</h2>
+<table border="2">
+<tr *ngFor="let hb of hobbies">
+    <td>{{hb}}</td></tr></table>
+
+
